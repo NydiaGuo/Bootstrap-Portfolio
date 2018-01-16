@@ -1,14 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
 	<title>contactPage</title>
+
 </head>
-<body>
+
+<body class="text-info bg-info">
+
+	<div class="container">
+		
+		<!--The first row-->
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-expand-lg navbar-default navbar-light bg-light border-white p-0">
+					<div class="navbar-brand navbar-header font-weight-bold bg-secondary text-white border border-white bg-info p-3">Ni Guo</div>
+				 	<button class="navbar-toggler m-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				    	<span class="navbar-toggler-icon"></span>
+				  	</button>
+				
+				  	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					    <div class="navbar-nav">
+					      <a class="nav-item nav-link" href="index.html">About<span class="sr-only"></span></a>
+					      <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+					      <a class="nav-item nav-link" href="contact.html">Contact</a>
+					    </div>
+				  	</div>
+				</nav>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-7">
+				<form class="m-4 p-4 border border-white rounded" style="background-color: white;">
+					<h3 class="border border-top-0 border-right-0 border-left-0 border-secondary pb-4">
+						<strong>Contact</strong>
+					</h3>
+						<div class="form-group">
+							<label for="formGroupExampleInput2">Name</label>
+							<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="John Smith">
+						</div>
+						<div class="form-group">
+						    <label for="exampleInputEmail1">Email address</label>
+						    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+						</div>
+						<div class="form-group">
+						    <label for="exampleFormControlTextarea1">Message</label>
+						    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						</div>
+					<button type="submit" class="btn btn-info">Submit</button>
+				</form>
+			</div>
+
+			<div class="col-md-4">
+				<ul class="list-group float-left mt-4 pb-3 bg-white border-white rounded">
+					<h5 class="border border-secondary border-top-0 border-right-0 border-left-0 pb-4 m-3 text-center text-info">
+						<strong>Contact with me</strong>
+					</h5>
+					<div class="container">
+						<li class="float-left d-inline m-1">
+						  	<a href="https://github.com/NydiaGuo/HW-Wireframe.git">
+								<img src="https://image.freepik.com/free-icon/github-logo-silhouette-in-a-square_318-54633.jpg" alt="My GitHub Page"  width="40" height="40">
+							</a>
+						</li>
+						<li class="float-left d-inline  m-1">
+							<a href="https://www.linkedin.com/in/ni-guo">
+								<img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png" alt="My LinkLn Page" width="40" height="40">
+							</a>
+						</li>
+						<li class="float-left d-inline  m-1">
+							<a href="https://stackoverflow.com/story/nydia">
+								<img src="https://icon-icons.com/icons2/729/PNG/512/stackoverflow_icon-icons.com_62748.png" alt="The stackoverflow link" width="40" height="40" >
+							</a>
+						</li>
+					</div>
+				</ul>
+			</div>	
 
 	
+		</div>
+
+	</div>
+
+	<!--The footer row-->
+	<div class="container mt-4">
+		<div class="sticky-bottom text-center bg-secondary">
+			<p class="text-white p-4">© Copyrihgt2018 Ni Guo</p>
+		</div>
+	</div>
 
 </body>
 </html>
